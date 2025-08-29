@@ -3,8 +3,8 @@ from aiogram import Bot, Dispatcher, executor, types
 from aiogram.types import InputFile
 
 # Ambil token & owner dari Railway Environment
-API_TOKEN = os.getenv("API_TOKEN")
-OWNER_ID = int(os.getenv("OWNER_ID", 0))
+API_TOKEN = os.getenv("8470058816:AAHDKDyxvZ-0FbuAvXeExHSCxHFH1TuKwXA")
+OWNER_ID = int(os.getenv("8116593707", 0))
 
 bot = Bot(token=API_TOKEN)
 dp = Dispatcher(bot)
